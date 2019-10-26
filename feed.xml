@@ -11,11 +11,11 @@
         <title>编程学习超级地图</title>
         
           <description>&lt;style type=&quot;text/css&quot;&gt;
-    .inPhone img {zoom: 20%;}
-    .inPC img {zoom: 50%;}
+    .inPhone img { zoom: 20%;}
+    .inPC img { zoom: 50%;}
 &lt;/style&gt;
 &lt;div id=&quot;body-container&quot;&gt;
-    &lt;img src=&quot;/assets/images/big_map.svg&quot; alt=&quot;big_map&quot; style=&quot;zoom:50%;&quot; /&gt;
+    &lt;img src=&quot;/assets/images/big_map.svg&quot; alt=&quot;big_map&quot;/&gt;
 &lt;/div&gt;
 &lt;script&gt;
     let bodyContainer = document.getElementById('body-container');
