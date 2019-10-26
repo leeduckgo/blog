@@ -299,9 +299,7 @@
             </text>
         </g>
         <text id="编程学习超级地图-by-李大狗" font-family="PingFangSC-Semibold, PingFang SC" font-size="32" font-weight="500" letter-spacing="1" fill="#68696D">
-            <tspan x="427" y="109">编程学习超级地图</tspan>
-            <tspan x="691" y="109" font-family="SourceCodePro-Semibold, Source Code Pro"> by </tspan>
-            <tspan x="771.8" y="109">李大狗</tspan>
+            <tspan x="427" y="109">编程学习超级地图 by 李大狗</tspan>
         </text>
         <path d="" id="路径-2" stroke="#979797"></path>
         <path d="" id="路径-4" stroke="#979797"></path>
