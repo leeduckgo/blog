@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>面向炫酷编程 - Articles</title>
+    <description>李大狗 Leeduckgo</description>
+    <link>
+    </link>
+    
+      
+      <item>
+        <title>编程学习超级地图</title>
+        
+          <description>&lt;img src=&quot;/assets/images/big_map.svg&quot; alt=&quot;big_map&quot; style=&quot;zoom:50%;&quot; /&gt;
+</description>
+        
+        <pubDate>Sat, 25 Oct 2025 18:18:00 +0800</pubDate>
+        <link>
+        /super-map.html</link>
+        <guid isPermaLink="true">/super-map.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>基于 Jupyterlab 的比特币极速入门指南</title>
+        
+          <description>比特币技术入门的最佳入口。
+</description>
+        
+        <pubDate>Sat, 25 Oct 2025 18:18:00 +0800</pubDate>
+        <link>
+        /bitcoin_lesson.html</link>
+        <guid isPermaLink="true">/bitcoin_lesson.html</guid>
+      </item>
+      
+    
+  </channel>
+</rss>
