@@ -10,7 +10,37 @@
       <item>
         <title>编程学习超级地图</title>
         
-          <description>&lt;img src=&quot;/assets/images/big_map.svg&quot; alt=&quot;big_map&quot; style=&quot;zoom:50%;&quot; /&gt;
+          <description>&lt;style type=&quot;text/css&quot;&gt;
+    .inPhone img {zoom: 20%;}
+    .inPC img {zoom: 50%;}
+&lt;/style&gt;
+&lt;div id=&quot;body-container&quot;&gt;
+    &lt;img src=&quot;/assets/images/big_map.svg&quot; alt=&quot;big_map&quot; style=&quot;zoom:50%;&quot; /&gt;
+&lt;/div&gt;
+&lt;script&gt;
+    let bodyContainer = document.getElementById('body-container');
+    function rotate (){
+                let isPhone, userAgentInfo = navigator.userAgent + ' '; 
+                if (userAgentInfo.indexOf(&quot;Android&quot;) != -1 || userAgentInfo.indexOf(&quot;iPhone&quot;) != -1 || userAgentInfo.indexOf(&quot;SymbianOS&quot;) != -1 || userAgentInfo.indexOf(&quot;Windows Phone&quot;) != -1) {
+                    isPhone = true
+                }else{
+                    isPhone = false;
+                }
+                return isPhone;
+            }
+    function reStyle(isPhone) {
+                if(isPhone){
+                    bodyContainer.classList.add(&quot;inPhone&quot;);
+                    bodyContainer.classList.remove(&quot;inPC&quot;);
+                } else {
+                    bodyContainer.classList.add(&quot;inPC&quot;);
+                    bodyContainer.classList.remove(&quot;inPhone&quot;);
+                }
+            }
+    
+    let isRefresh = rotate();
+    reStyle(isRefresh);
+&lt;/script&gt;
 </description>
         
         <pubDate>Sat, 25 Oct 2025 18:18:00 +0800</pubDate>

@@ -18,7 +18,37 @@
 	  <pubDate>2025-10-25T18:18:00+08:00</pubDate>
 	  <guid>//super-map.html</guid>
 	  <description><![CDATA[
-	     <img src="/assets/images/big_map.svg" alt="big_map" style="zoom:50%;" />
+	     <style type="text/css">
+    .inPhone img {zoom: 20%;}
+    .inPC img {zoom: 50%;}
+</style>
+<div id="body-container">
+    <img src="/assets/images/big_map.svg" alt="big_map" style="zoom:50%;" />
+</div>
+<script>
+    let bodyContainer = document.getElementById('body-container');
+    function rotate (){
+                let isPhone, userAgentInfo = navigator.userAgent + ' '; 
+                if (userAgentInfo.indexOf("Android") != -1 || userAgentInfo.indexOf("iPhone") != -1 || userAgentInfo.indexOf("SymbianOS") != -1 || userAgentInfo.indexOf("Windows Phone") != -1) {
+                    isPhone = true
+                }else{
+                    isPhone = false;
+                }
+                return isPhone;
+            }
+    function reStyle(isPhone) {
+                if(isPhone){
+                    bodyContainer.classList.add("inPhone");
+                    bodyContainer.classList.remove("inPC");
+                } else {
+                    bodyContainer.classList.add("inPC");
+                    bodyContainer.classList.remove("inPhone");
+                }
+            }
+    
+    let isRefresh = rotate();
+    reStyle(isRefresh);
+</script>
 <!--excerpt-->
 
 	  ]]></description>
