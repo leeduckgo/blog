@@ -8,50 +8,6 @@
     
       
       <item>
-        <title>编程学习超级地图</title>
-        
-          <description>&lt;style type=&quot;text/css&quot;&gt;
-    .inPhone img { zoom: 20%;}
-    .inPC img { zoom: 50%;}
-&lt;/style&gt;
-&lt;div id=&quot;body-container&quot; style=&quot;text-align:center;&quot;&gt;
-    &lt;img src=&quot;/assets/images/big_map.svg&quot; alt=&quot;big_map&quot;/&gt;
-&lt;/div&gt;
-&lt;script&gt;
-    let bodyContainer = document.getElementById('body-container');
-    function rotate (){
-                let isPhone, userAgentInfo = navigator.userAgent + ' '; 
-                if (userAgentInfo.indexOf(&quot;Android&quot;) != -1 || userAgentInfo.indexOf(&quot;iPhone&quot;) != -1 || userAgentInfo.indexOf(&quot;SymbianOS&quot;) != -1 || userAgentInfo.indexOf(&quot;Windows Phone&quot;) != -1) {
-                    isPhone = true
-                }else{
-                    isPhone = false;
-                }
-                return isPhone;
-            }
-    function reStyle(isPhone) {
-                if(isPhone){
-                    bodyContainer.classList.add(&quot;inPhone&quot;);
-                    bodyContainer.classList.remove(&quot;inPC&quot;);
-                } else {
-                    bodyContainer.classList.add(&quot;inPC&quot;);
-                    bodyContainer.classList.remove(&quot;inPhone&quot;);
-                }
-            }
-    
-    let isRefresh = rotate();
-    reStyle(isRefresh);
-&lt;/script&gt;
-</description>
-        
-        <pubDate>Sat, 25 Oct 2025 18:18:00 +0800</pubDate>
-        <link>
-        /super-map.html</link>
-        <guid isPermaLink="true">/super-map.html</guid>
-      </item>
-      
-    
-      
-      <item>
         <title>基于 Jupyterlab 的比特币极速入门指南</title>
         
           <description>比特币技术入门的最佳入口。
@@ -59,8 +15,1310 @@
         
         <pubDate>Sat, 25 Oct 2025 18:18:00 +0800</pubDate>
         <link>
-        /bitcoin_lesson.html</link>
-        <guid isPermaLink="true">/bitcoin_lesson.html</guid>
+        /%E6%9E%81%E9%80%9F%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97.html</link>
+        <guid isPermaLink="true">/%E6%9E%81%E9%80%9F%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>FISCO BCOS 介绍 | 联盟链开发（八）</title>
+        
+          <description>腾讯大法好
+</description>
+        
+        <pubDate>Mon, 24 Feb 2020 18:18:35 +0800</pubDate>
+        <link>
+        /FISCO-BCOS-%E4%BB%8B%E7%BB%8D-%E8%81%94%E7%9B%9F%E9%93%BE%E5%BC%80%E5%8F%91-%E5%85%AB.html</link>
+        <guid isPermaLink="true">/FISCO-BCOS-%E4%BB%8B%E7%BB%8D-%E8%81%94%E7%9B%9F%E9%93%BE%E5%BC%80%E5%8F%91-%E5%85%AB.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>为什么使用 MD5 存储密码非常危险 | WTD</title>
+        
+          <description>所有场景下使用 MD5 都是可能有安全风险的
+</description>
+        
+        <pubDate>Mon, 24 Feb 2020 04:28:35 +0800</pubDate>
+        <link>
+        /%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%BF%E7%94%A8-MD5-%E5%AD%98%E5%82%A8%E5%AF%86%E7%A0%81%E9%9D%9E%E5%B8%B8%E5%8D%B1%E9%99%A9-WTD.html</link>
+        <guid isPermaLink="true">/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%BF%E7%94%A8-MD5-%E5%AD%98%E5%82%A8%E5%AF%86%E7%A0%81%E9%9D%9E%E5%B8%B8%E5%8D%B1%E9%99%A9-WTD.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>任意Py项目的JupyterLab化 | 开发新鲜人培养手记（五）</title>
+        
+          <description>一个被低估的神器
+</description>
+        
+        <pubDate>Fri, 21 Feb 2020 06:12:15 +0800</pubDate>
+        <link>
+        /%E4%BB%BB%E6%84%8FPy%E9%A1%B9%E7%9B%AE%E7%9A%84JupyterLab%E5%8C%96-%E5%BC%80%E5%8F%91%E6%96%B0%E9%B2%9C%E4%BA%BA%E5%9F%B9%E5%85%BB%E6%89%8B%E8%AE%B0-%E4%BA%94.html</link>
+        <guid isPermaLink="true">/%E4%BB%BB%E6%84%8FPy%E9%A1%B9%E7%9B%AE%E7%9A%84JupyterLab%E5%8C%96-%E5%BC%80%E5%8F%91%E6%96%B0%E9%B2%9C%E4%BA%BA%E5%9F%B9%E5%85%BB%E6%89%8B%E8%AE%B0-%E4%BA%94.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>链上简历应用 — 设计 | 联盟链开发（七）</title>
+        
+          <description>通过应用实战，讲解联盟链开发
+</description>
+        
+        <pubDate>Thu, 20 Feb 2020 06:48:39 +0800</pubDate>
+        <link>
+        /%E9%93%BE%E4%B8%8A%E7%AE%80%E5%8E%86%E5%BA%94%E7%94%A8-%E8%AE%BE%E8%AE%A1-%E8%81%94%E7%9B%9F%E9%93%BE%E5%BC%80%E5%8F%91-%E4%B8%83.html</link>
+        <guid isPermaLink="true">/%E9%93%BE%E4%B8%8A%E7%AE%80%E5%8E%86%E5%BA%94%E7%94%A8-%E8%AE%BE%E8%AE%A1-%E8%81%94%E7%9B%9F%E9%93%BE%E5%BC%80%E5%8F%91-%E4%B8%83.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>BSN 相关问与答 | 联盟链开发（六）</title>
+        
+          <description>更好地理解 BSN
+</description>
+        
+        <pubDate>Mon, 17 Feb 2020 22:45:04 +0800</pubDate>
+        <link>
+        /BSN-%E7%9B%B8%E5%85%B3%E9%97%AE%E4%B8%8E%E7%AD%94-%E8%81%94%E7%9B%9F%E9%93%BE%E5%BC%80%E5%8F%91-%E5%85%AD.html</link>
+        <guid isPermaLink="true">/BSN-%E7%9B%B8%E5%85%B3%E9%97%AE%E4%B8%8E%E7%AD%94-%E8%81%94%E7%9B%9F%E9%93%BE%E5%BC%80%E5%8F%91-%E5%85%AD.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>调度系统设计精要</title>
+        
+          <description>深入调度器的设计原理，源码级分析 Linux、Go 和 k8s 调度器的演变过程
+</description>
+        
+        <pubDate>Sun, 09 Feb 2020 05:39:06 +0800</pubDate>
+        <link>
+        /%E8%B0%83%E5%BA%A6%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1%E7%B2%BE%E8%A6%81.html</link>
+        <guid isPermaLink="true">/%E8%B0%83%E5%BA%A6%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1%E7%B2%BE%E8%A6%81.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>分享图片</title>
+        
+          <description></description>
+        
+        <pubDate>Fri, 07 Feb 2020 16:46:36 +0800</pubDate>
+        <link>
+        /%E5%88%86%E4%BA%AB%E5%9B%BE%E7%89%87.html</link>
+        <guid isPermaLink="true">/%E5%88%86%E4%BA%AB%E5%9B%BE%E7%89%87.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>简介与目录 | 联盟链极速入门指南</title>
+        
+          <description>如何开发 BSN 与 FISCO-BCOS 的应用？
+</description>
+        
+        <pubDate>Thu, 06 Feb 2020 01:27:24 +0800</pubDate>
+        <link>
+        /%E7%AE%80%E4%BB%8B%E4%B8%8E%E7%9B%AE%E5%BD%95-%E8%81%94%E7%9B%9F%E9%93%BE%E6%9E%81%E9%80%9F%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97.html</link>
+        <guid isPermaLink="true">/%E7%AE%80%E4%BB%8B%E4%B8%8E%E7%9B%AE%E5%BD%95-%E8%81%94%E7%9B%9F%E9%93%BE%E6%9E%81%E9%80%9F%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>什么样的数据应该上链？| 联盟链开发 （五）</title>
+        
+          <description>先思考数据上链的目标与特点✧(•̀ω•́ )
+</description>
+        
+        <pubDate>Wed, 05 Feb 2020 00:11:27 +0800</pubDate>
+        <link>
+        /%E4%BB%80%E4%B9%88%E6%A0%B7%E7%9A%84%E6%95%B0%E6%8D%AE%E5%BA%94%E8%AF%A5%E4%B8%8A%E9%93%BE-%E8%81%94%E7%9B%9F%E9%93%BE%E5%BC%80%E5%8F%91-%E4%BA%94.html</link>
+        <guid isPermaLink="true">/%E4%BB%80%E4%B9%88%E6%A0%B7%E7%9A%84%E6%95%B0%E6%8D%AE%E5%BA%94%E8%AF%A5%E4%B8%8A%E9%93%BE-%E8%81%94%E7%9B%9F%E9%93%BE%E5%BC%80%E5%8F%91-%E4%BA%94.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>从 Code Review 开始团队协作 | 开发新鲜人培养手记（四）</title>
+        
+          <description>通过 Code Review 建立新人间的「正循环网络」
+</description>
+        
+        <pubDate>Sun, 02 Feb 2020 07:22:37 +0800</pubDate>
+        <link>
+        /%E4%BB%8E-Code-Review-%E5%BC%80%E5%A7%8B%E5%9B%A2%E9%98%9F%E5%8D%8F%E4%BD%9C-%E5%BC%80%E5%8F%91%E6%96%B0%E9%B2%9C%E4%BA%BA%E5%9F%B9%E5%85%BB%E6%89%8B%E8%AE%B0-%E5%9B%9B.html</link>
+        <guid isPermaLink="true">/%E4%BB%8E-Code-Review-%E5%BC%80%E5%A7%8B%E5%9B%A2%E9%98%9F%E5%8D%8F%E4%BD%9C-%E5%BC%80%E5%8F%91%E6%96%B0%E9%B2%9C%E4%BA%BA%E5%9F%B9%E5%85%BB%E6%89%8B%E8%AE%B0-%E5%9B%9B.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>【B站视频】用 BSN-SDK 做个微服务（一）</title>
+        
+          <description>玩转 SDK
+</description>
+        
+        <pubDate>Sat, 01 Feb 2020 07:02:55 +0800</pubDate>
+        <link>
+        /B%E7%AB%99%E8%A7%86%E9%A2%91-%E7%94%A8-BSN-SDK-%E5%81%9A%E4%B8%AA%E5%BE%AE%E6%9C%8D%E5%8A%A1-%E4%B8%80.html</link>
+        <guid isPermaLink="true">/B%E7%AB%99%E8%A7%86%E9%A2%91-%E7%94%A8-BSN-SDK-%E5%81%9A%E4%B8%AA%E5%BE%AE%E6%9C%8D%E5%8A%A1-%E4%B8%80.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>关于区块链的基础问题</title>
+        
+          <description>首先问问题
+</description>
+        
+        <pubDate>Wed, 29 Jan 2020 19:04:37 +0800</pubDate>
+        <link>
+        /%E5%85%B3%E4%BA%8E%E5%8C%BA%E5%9D%97%E9%93%BE%E7%9A%84%E5%9F%BA%E7%A1%80%E9%97%AE%E9%A2%98.html</link>
+        <guid isPermaLink="true">/%E5%85%B3%E4%BA%8E%E5%8C%BA%E5%9D%97%E9%93%BE%E7%9A%84%E5%9F%BA%E7%A1%80%E9%97%AE%E9%A2%98.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>为什么数据库会丢失数据？| WTD</title>
+        
+          <description>保证数据不丢失是一件困难的事情╮(￣▽￣)╭
+</description>
+        
+        <pubDate>Wed, 29 Jan 2020 06:16:07 +0800</pubDate>
+        <link>
+        /%E4%B8%BA%E4%BB%80%E4%B9%88%E6%95%B0%E6%8D%AE%E5%BA%93%E4%BC%9A%E4%B8%A2%E5%A4%B1%E6%95%B0%E6%8D%AE-WTD.html</link>
+        <guid isPermaLink="true">/%E4%B8%BA%E4%BB%80%E4%B9%88%E6%95%B0%E6%8D%AE%E5%BA%93%E4%BC%9A%E4%B8%A2%E5%A4%B1%E6%95%B0%E6%8D%AE-WTD.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>与 LearnBlockchain 的合作 | 公众号升级</title>
+        
+          <description>在公众号后台输入 learn，随机推送一篇社区文章
+</description>
+        
+        <pubDate>Mon, 27 Jan 2020 22:34:06 +0800</pubDate>
+        <link>
+        /%E4%B8%8E-LearnBlockchain-%E7%9A%84%E5%90%88%E4%BD%9C-%E5%85%AC%E4%BC%97%E5%8F%B7%E5%8D%87%E7%BA%A7.html</link>
+        <guid isPermaLink="true">/%E4%B8%8E-LearnBlockchain-%E7%9A%84%E5%90%88%E4%BD%9C-%E5%85%AC%E4%BC%97%E5%8F%B7%E5%8D%87%E7%BA%A7.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>八个字节的 UDP 如何传输数据 | WTD</title>
+        
+          <description>谈谈 UDP 底层的 IP 协议和 TCP/UDP 的端口号
+</description>
+        
+        <pubDate>Sun, 26 Jan 2020 19:44:26 +0800</pubDate>
+        <link>
+        /%E5%85%AB%E4%B8%AA%E5%AD%97%E8%8A%82%E7%9A%84-UDP-%E5%A6%82%E4%BD%95%E4%BC%A0%E8%BE%93%E6%95%B0%E6%8D%AE-WTD.html</link>
+        <guid isPermaLink="true">/%E5%85%AB%E4%B8%AA%E5%AD%97%E8%8A%82%E7%9A%84-UDP-%E5%A6%82%E4%BD%95%E4%BC%A0%E8%BE%93%E6%95%B0%E6%8D%AE-WTD.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>编程语言选择记（一） | 大狗编程宇宙</title>
+        
+          <description>春节快乐！来听老头哔哔
+</description>
+        
+        <pubDate>Sat, 25 Jan 2020 17:16:27 +0800</pubDate>
+        <link>
+        /%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E9%80%89%E6%8B%A9%E8%AE%B0-%E4%B8%80-%E5%A4%A7%E7%8B%97%E7%BC%96%E7%A8%8B%E5%AE%87%E5%AE%99.html</link>
+        <guid isPermaLink="true">/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E9%80%89%E6%8B%A9%E8%AE%B0-%E4%B8%80-%E5%A4%A7%E7%8B%97%E7%BC%96%E7%A8%8B%E5%AE%87%E5%AE%99.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>将 SDK 发布到 PIP | 联盟链开发（四）</title>
+        
+          <description>发布━(｀∀´)ノ
+</description>
+        
+        <pubDate>Fri, 24 Jan 2020 20:39:36 +0800</pubDate>
+        <link>
+        /%E5%B0%86-SDK-%E5%8F%91%E5%B8%83%E5%88%B0-PIP-%E8%81%94%E7%9B%9F%E9%93%BE%E5%BC%80%E5%8F%91-%E5%9B%9B.html</link>
+        <guid isPermaLink="true">/%E5%B0%86-SDK-%E5%8F%91%E5%B8%83%E5%88%B0-PIP-%E8%81%94%E7%9B%9F%E9%93%BE%E5%BC%80%E5%8F%91-%E5%9B%9B.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>SDK 1.0 版本的打造 | 联盟链开发（三）</title>
+        
+          <description>BSN_Python_SDK 1.0 版本出炉~ (´・ω・`)~
+</description>
+        
+        <pubDate>Thu, 23 Jan 2020 20:43:32 +0800</pubDate>
+        <link>
+        /SDK-1.0-%E7%89%88%E6%9C%AC%E7%9A%84%E6%89%93%E9%80%A0-%E8%81%94%E7%9B%9F%E9%93%BE%E5%BC%80%E5%8F%91-%E4%B8%89.html</link>
+        <guid isPermaLink="true">/SDK-1.0-%E7%89%88%E6%9C%AC%E7%9A%84%E6%89%93%E9%80%A0-%E8%81%94%E7%9B%9F%E9%93%BE%E5%BC%80%E5%8F%91-%E4%B8%89.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>谨慎地做预测 | 大系统设计狂想曲（二）</title>
+        
+          <description>我们现在对未来做的很多言之凿凿的论断很可能是错的
+</description>
+        
+        <pubDate>Tue, 21 Jan 2020 18:33:17 +0800</pubDate>
+        <link>
+        /%E8%B0%A8%E6%85%8E%E5%9C%B0%E5%81%9A%E9%A2%84%E6%B5%8B-%E5%A4%A7%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1%E7%8B%82%E6%83%B3%E6%9B%B2-%E4%BA%8C.html</link>
+        <guid isPermaLink="true">/%E8%B0%A8%E6%85%8E%E5%9C%B0%E5%81%9A%E9%A2%84%E6%B5%8B-%E5%A4%A7%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1%E7%8B%82%E6%83%B3%E6%9B%B2-%E4%BA%8C.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>关于平台的迷思 | 大系统设计狂想曲（一）</title>
+        
+          <description>真的要做一个平台吗？
+</description>
+        
+        <pubDate>Mon, 20 Jan 2020 17:56:09 +0800</pubDate>
+        <link>
+        /%E5%85%B3%E4%BA%8E%E5%B9%B3%E5%8F%B0%E7%9A%84%E8%BF%B7%E6%80%9D-%E5%A4%A7%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1%E7%8B%82%E6%83%B3%E6%9B%B2-%E4%B8%80.html</link>
+        <guid isPermaLink="true">/%E5%85%B3%E4%BA%8E%E5%B9%B3%E5%8F%B0%E7%9A%84%E8%BF%B7%E6%80%9D-%E5%A4%A7%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1%E7%8B%82%E6%83%B3%E6%9B%B2-%E4%B8%80.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>初始化 Python 项目时候必用脚本 | 编程效率UpUp（五）</title>
+        
+          <description>人生苦短 我写脚本
+</description>
+        
+        <pubDate>Mon, 20 Jan 2020 03:23:24 +0800</pubDate>
+        <link>
+        /%E5%88%9D%E5%A7%8B%E5%8C%96-Python-%E9%A1%B9%E7%9B%AE%E6%97%B6%E5%80%99%E5%BF%85%E7%94%A8%E8%84%9A%E6%9C%AC-%E7%BC%96%E7%A8%8B%E6%95%88%E7%8E%87UpUp-%E4%BA%94.html</link>
+        <guid isPermaLink="true">/%E5%88%9D%E5%A7%8B%E5%8C%96-Python-%E9%A1%B9%E7%9B%AE%E6%97%B6%E5%80%99%E5%BF%85%E7%94%A8%E8%84%9A%E6%9C%AC-%E7%BC%96%E7%A8%8B%E6%95%88%E7%8E%87UpUp-%E4%BA%94.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>扩容、扩展与无限扩展 | 突破区块链不可能三角（一）</title>
+        
+          <description>清晰详细的系列文章( •̀ᄇ• ́)ﻭ✧
+</description>
+        
+        <pubDate>Fri, 17 Jan 2020 20:27:55 +0800</pubDate>
+        <link>
+        /%E6%89%A9%E5%AE%B9-%E6%89%A9%E5%B1%95%E4%B8%8E%E6%97%A0%E9%99%90%E6%89%A9%E5%B1%95-%E7%AA%81%E7%A0%B4%E5%8C%BA%E5%9D%97%E9%93%BE%E4%B8%8D%E5%8F%AF%E8%83%BD%E4%B8%89%E8%A7%92-%E4%B8%80.html</link>
+        <guid isPermaLink="true">/%E6%89%A9%E5%AE%B9-%E6%89%A9%E5%B1%95%E4%B8%8E%E6%97%A0%E9%99%90%E6%89%A9%E5%B1%95-%E7%AA%81%E7%A0%B4%E5%8C%BA%E5%9D%97%E9%93%BE%E4%B8%8D%E5%8F%AF%E8%83%BD%E4%B8%89%E8%A7%92-%E4%B8%80.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>函数式范式与面向对象范式比较 — 以词频统计为例</title>
+        
+          <description>两种范式，两种思维方式
+</description>
+        
+        <pubDate>Thu, 16 Jan 2020 08:11:39 +0800</pubDate>
+        <link>
+        /%E5%87%BD%E6%95%B0%E5%BC%8F%E8%8C%83%E5%BC%8F%E4%B8%8E%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E8%8C%83%E5%BC%8F%E6%AF%94%E8%BE%83-%E4%BB%A5%E8%AF%8D%E9%A2%91%E7%BB%9F%E8%AE%A1%E4%B8%BA%E4%BE%8B.html</link>
+        <guid isPermaLink="true">/%E5%87%BD%E6%95%B0%E5%BC%8F%E8%8C%83%E5%BC%8F%E4%B8%8E%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E8%8C%83%E5%BC%8F%E6%AF%94%E8%BE%83-%E4%BB%A5%E8%AF%8D%E9%A2%91%E7%BB%9F%E8%AE%A1%E4%B8%BA%E4%BE%8B.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>动手编 SDK | 联盟链开发（二）</title>
+        
+          <description>人生，总避免不了开发几个 SDK ✧(•̀ω•́ )
+</description>
+        
+        <pubDate>Wed, 15 Jan 2020 08:01:54 +0800</pubDate>
+        <link>
+        /%E5%8A%A8%E6%89%8B%E7%BC%96-SDK-%E8%81%94%E7%9B%9F%E9%93%BE%E5%BC%80%E5%8F%91-%E4%BA%8C.html</link>
+        <guid isPermaLink="true">/%E5%8A%A8%E6%89%8B%E7%BC%96-SDK-%E8%81%94%E7%9B%9F%E9%93%BE%E5%BC%80%E5%8F%91-%E4%BA%8C.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>关于粉丝迁移至本公众号的说明</title>
+        
+          <description>感谢您继续关注我们的公众号。您之前关注的公众号李大狗Leeduckgo已经将全部业务、功能转移至本公众号。
+</description>
+        
+        <pubDate>Sat, 11 Jan 2020 01:03:24 +0800</pubDate>
+        <link>
+        /%E5%85%B3%E4%BA%8E%E7%B2%89%E4%B8%9D%E8%BF%81%E7%A7%BB%E8%87%B3%E6%9C%AC%E5%85%AC%E4%BC%97%E5%8F%B7%E7%9A%84%E8%AF%B4%E6%98%8E.html</link>
+        <guid isPermaLink="true">/%E5%85%B3%E4%BA%8E%E7%B2%89%E4%B8%9D%E8%BF%81%E7%A7%BB%E8%87%B3%E6%9C%AC%E5%85%AC%E4%BC%97%E5%8F%B7%E7%9A%84%E8%AF%B4%E6%98%8E.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Raft 官方简介 | 共识算法</title>
+        
+          <description>✧(•̀ω•́ ) 一个易于理解的共识算法✧(•̀ω•́ )
+</description>
+        
+        <pubDate>Mon, 06 Jan 2020 22:25:11 +0800</pubDate>
+        <link>
+        /Raft-%E5%AE%98%E6%96%B9%E7%AE%80%E4%BB%8B-%E5%85%B1%E8%AF%86%E7%AE%97%E6%B3%95.html</link>
+        <guid isPermaLink="true">/Raft-%E5%AE%98%E6%96%B9%E7%AE%80%E4%BB%8B-%E5%85%B1%E8%AF%86%E7%AE%97%E6%B3%95.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>RSA非对称加密的原理及其实现 | Python</title>
+        
+          <description>一文了解 RSA
+</description>
+        
+        <pubDate>Thu, 02 Jan 2020 02:01:42 +0800</pubDate>
+        <link>
+        /RSA%E9%9D%9E%E5%AF%B9%E7%A7%B0%E5%8A%A0%E5%AF%86%E7%9A%84%E5%8E%9F%E7%90%86%E5%8F%8A%E5%85%B6%E5%AE%9E%E7%8E%B0-Python.html</link>
+        <guid isPermaLink="true">/RSA%E9%9D%9E%E5%AF%B9%E7%A7%B0%E5%8A%A0%E5%AF%86%E7%9A%84%E5%8E%9F%E7%90%86%E5%8F%8A%E5%85%B6%E5%AE%9E%E7%8E%B0-Python.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>新年快乐！</title>
+        
+          <description>!!!NEW━ﾟ+.(@(●´Å`●)@).+ﾟ.━YEAR!!!
+</description>
+        
+        <pubDate>Wed, 01 Jan 2020 06:03:08 +0800</pubDate>
+        <link>
+        /%E6%96%B0%E5%B9%B4%E5%BF%AB%E4%B9%90.html</link>
+        <guid isPermaLink="true">/%E6%96%B0%E5%B9%B4%E5%BF%AB%E4%B9%90.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>函数式范式与面向对象范式比较 — 以词频统计为例</title>
+        
+          <description>机器人与流水线的区别
+</description>
+        
+        <pubDate>Wed, 01 Jan 2020 06:03:08 +0800</pubDate>
+        <link>
+        /%E5%87%BD%E6%95%B0%E5%BC%8F%E8%8C%83%E5%BC%8F%E4%B8%8E%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E8%8C%83%E5%BC%8F%E6%AF%94%E8%BE%83-%E4%BB%A5%E8%AF%8D%E9%A2%91%E7%BB%9F%E8%AE%A1%E4%B8%BA%E4%BE%8B.html</link>
+        <guid isPermaLink="true">/%E5%87%BD%E6%95%B0%E5%BC%8F%E8%8C%83%E5%BC%8F%E4%B8%8E%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E8%8C%83%E5%BC%8F%E6%AF%94%E8%BE%83-%E4%BB%A5%E8%AF%8D%E9%A2%91%E7%BB%9F%E8%AE%A1%E4%B8%BA%E4%BE%8B.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>货币之花 | 认识货币</title>
+        
+          <description>「货币之花」中译版
+Au fond de l'Inconnu pour trouver du nouveau.
+</description>
+        
+        <pubDate>Sun, 29 Dec 2019 08:01:16 +0800</pubDate>
+        <link>
+        /%E8%B4%A7%E5%B8%81%E4%B9%8B%E8%8A%B1-%E8%AE%A4%E8%AF%86%E8%B4%A7%E5%B8%81.html</link>
+        <guid isPermaLink="true">/%E8%B4%A7%E5%B8%81%E4%B9%8B%E8%8A%B1-%E8%AE%A4%E8%AF%86%E8%B4%A7%E5%B8%81.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>交互式编程环境预加载 | 编程效率 UpUp （四）</title>
+        
+          <description>如何在命令行界面出现时自动加载代码？| Py &amp; Nodejs
+</description>
+        
+        <pubDate>Fri, 27 Dec 2019 06:58:40 +0800</pubDate>
+        <link>
+        /%E4%BA%A4%E4%BA%92%E5%BC%8F%E7%BC%96%E7%A8%8B%E7%8E%AF%E5%A2%83%E9%A2%84%E5%8A%A0%E8%BD%BD-%E7%BC%96%E7%A8%8B%E6%95%88%E7%8E%87-UpUp-%E5%9B%9B.html</link>
+        <guid isPermaLink="true">/%E4%BA%A4%E4%BA%92%E5%BC%8F%E7%BC%96%E7%A8%8B%E7%8E%AF%E5%A2%83%E9%A2%84%E5%8A%A0%E8%BD%BD-%E7%BC%96%E7%A8%8B%E6%95%88%E7%8E%87-UpUp-%E5%9B%9B.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>MerrY XmaS</title>
+        
+          <description>Cyber-Doge
+</description>
+        
+        <pubDate>Wed, 25 Dec 2019 00:55:24 +0800</pubDate>
+        <link>
+        /MerrY-XmaS.html</link>
+        <guid isPermaLink="true">/MerrY-XmaS.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>模式匹配 | 舒适的设计（二）</title>
+        
+          <description>万物皆可「模式匹配」 ( • ̀ω•́ )✧
+</description>
+        
+        <pubDate>Tue, 24 Dec 2019 07:06:51 +0800</pubDate>
+        <link>
+        /%E6%A8%A1%E5%BC%8F%E5%8C%B9%E9%85%8D-%E8%88%92%E9%80%82%E7%9A%84%E8%AE%BE%E8%AE%A1-%E4%BA%8C.html</link>
+        <guid isPermaLink="true">/%E6%A8%A1%E5%BC%8F%E5%8C%B9%E9%85%8D-%E8%88%92%E9%80%82%E7%9A%84%E8%AE%BE%E8%AE%A1-%E4%BA%8C.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Principles | 开发新鲜人培养手记（三）</title>
+        
+          <description>原则越早树立越好
+</description>
+        
+        <pubDate>Sun, 22 Dec 2019 19:23:11 +0800</pubDate>
+        <link>
+        /Principles-%E5%BC%80%E5%8F%91%E6%96%B0%E9%B2%9C%E4%BA%BA%E5%9F%B9%E5%85%BB%E6%89%8B%E8%AE%B0-%E4%B8%89.html</link>
+        <guid isPermaLink="true">/Principles-%E5%BC%80%E5%8F%91%E6%96%B0%E9%B2%9C%E4%BA%BA%E5%9F%B9%E5%85%BB%E6%89%8B%E8%AE%B0-%E4%B8%89.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>介绍（Part.1） |  大狗精读 PBFT 论文</title>
+        
+          <description>Safety, Liveness, Linearizability &amp; DoS  (ง •̀_•́)ง
+</description>
+        
+        <pubDate>Sun, 22 Dec 2019 07:02:54 +0800</pubDate>
+        <link>
+        /%E4%BB%8B%E7%BB%8D-Part.1-%E5%A4%A7%E7%8B%97%E7%B2%BE%E8%AF%BB-PBFT-%E8%AE%BA%E6%96%87.html</link>
+        <guid isPermaLink="true">/%E4%BB%8B%E7%BB%8D-Part.1-%E5%A4%A7%E7%8B%97%E7%B2%BE%E8%AF%BB-PBFT-%E8%AE%BA%E6%96%87.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>超简易Git工作流 | 开发新鲜人培养手记（二）</title>
+        
+          <description>多人共同维护一个仓库怎么办？✧(•̀ω•́ )
+</description>
+        
+        <pubDate>Wed, 18 Dec 2019 06:13:40 +0800</pubDate>
+        <link>
+        /%E8%B6%85%E7%AE%80%E6%98%93Git%E5%B7%A5%E4%BD%9C%E6%B5%81-%E5%BC%80%E5%8F%91%E6%96%B0%E9%B2%9C%E4%BA%BA%E5%9F%B9%E5%85%BB%E6%89%8B%E8%AE%B0-%E4%BA%8C.html</link>
+        <guid isPermaLink="true">/%E8%B6%85%E7%AE%80%E6%98%93Git%E5%B7%A5%E4%BD%9C%E6%B5%81-%E5%BC%80%E5%8F%91%E6%96%B0%E9%B2%9C%E4%BA%BA%E5%9F%B9%E5%85%BB%E6%89%8B%E8%AE%B0-%E4%BA%8C.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>区块链实用型技能树 | 新人必读</title>
+        
+          <description>区块链学习超级地图( •̅_•̅ )
+</description>
+        
+        <pubDate>Mon, 16 Dec 2019 00:22:29 +0800</pubDate>
+        <link>
+        /%E5%8C%BA%E5%9D%97%E9%93%BE%E5%AE%9E%E7%94%A8%E5%9E%8B%E6%8A%80%E8%83%BD%E6%A0%91-%E6%96%B0%E4%BA%BA%E5%BF%85%E8%AF%BB.html</link>
+        <guid isPermaLink="true">/%E5%8C%BA%E5%9D%97%E9%93%BE%E5%AE%9E%E7%94%A8%E5%9E%8B%E6%8A%80%E8%83%BD%E6%A0%91-%E6%96%B0%E4%BA%BA%E5%BF%85%E8%AF%BB.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>提升效率篇 | 大狗文章合集</title>
+        
+          <description>提 升 效 率
+</description>
+        
+        <pubDate>Sat, 14 Dec 2019 03:12:59 +0800</pubDate>
+        <link>
+        /%E6%8F%90%E5%8D%87%E6%95%88%E7%8E%87%E7%AF%87-%E5%A4%A7%E7%8B%97%E6%96%87%E7%AB%A0%E5%90%88%E9%9B%86.html</link>
+        <guid isPermaLink="true">/%E6%8F%90%E5%8D%87%E6%95%88%E7%8E%87%E7%AF%87-%E5%A4%A7%E7%8B%97%E6%96%87%E7%AB%A0%E5%90%88%E9%9B%86.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>管道运算符 | 舒适的设计</title>
+        
+          <description>管道运算符，舒适你我他
+</description>
+        
+        <pubDate>Thu, 12 Dec 2019 20:03:45 +0800</pubDate>
+        <link>
+        /%E7%AE%A1%E9%81%93%E8%BF%90%E7%AE%97%E7%AC%A6-%E8%88%92%E9%80%82%E7%9A%84%E8%AE%BE%E8%AE%A1.html</link>
+        <guid isPermaLink="true">/%E7%AE%A1%E9%81%93%E8%BF%90%E7%AE%97%E7%AC%A6-%E8%88%92%E9%80%82%E7%9A%84%E8%AE%BE%E8%AE%A1.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Git入门与下载提速 | 开发新鲜人培养手记（一）</title>
+        
+          <description>真正的野生的贴合受众的开发者成长路径
+</description>
+        
+        <pubDate>Tue, 10 Dec 2019 03:28:20 +0800</pubDate>
+        <link>
+        /Git%E5%85%A5%E9%97%A8%E4%B8%8E%E4%B8%8B%E8%BD%BD%E6%8F%90%E9%80%9F-%E5%BC%80%E5%8F%91%E6%96%B0%E9%B2%9C%E4%BA%BA%E5%9F%B9%E5%85%BB%E6%89%8B%E8%AE%B0-%E4%B8%80.html</link>
+        <guid isPermaLink="true">/Git%E5%85%A5%E9%97%A8%E4%B8%8E%E4%B8%8B%E8%BD%BD%E6%8F%90%E9%80%9F-%E5%BC%80%E5%8F%91%E6%96%B0%E9%B2%9C%E4%BA%BA%E5%9F%B9%E5%85%BB%E6%89%8B%E8%AE%B0-%E4%B8%80.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>什么是 DAO？</title>
+        
+          <description>一种组织管理的可能方向
+</description>
+        
+        <pubDate>Fri, 06 Dec 2019 07:31:03 +0800</pubDate>
+        <link>
+        /%E4%BB%80%E4%B9%88%E6%98%AF-DAO.html</link>
+        <guid isPermaLink="true">/%E4%BB%80%E4%B9%88%E6%98%AF-DAO.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>摘要 | 大狗精读 PBFT 论文</title>
+        
+          <description>为什么比特币 10 分钟出个块，每个块的大小 1 MB ？​
+</description>
+        
+        <pubDate>Thu, 05 Dec 2019 05:32:28 +0800</pubDate>
+        <link>
+        /%E6%91%98%E8%A6%81-%E5%A4%A7%E7%8B%97%E7%B2%BE%E8%AF%BB-PBFT-%E8%AE%BA%E6%96%87.html</link>
+        <guid isPermaLink="true">/%E6%91%98%E8%A6%81-%E5%A4%A7%E7%8B%97%E7%B2%BE%E8%AF%BB-PBFT-%E8%AE%BA%E6%96%87.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>开坑 | 大狗精读 PBFT 论文</title>
+        
+          <description>人 生 宝 贵，谨 慎 学 习
+</description>
+        
+        <pubDate>Mon, 02 Dec 2019 07:51:28 +0800</pubDate>
+        <link>
+        /%E5%BC%80%E5%9D%91-%E5%A4%A7%E7%8B%97%E7%B2%BE%E8%AF%BB-PBFT-%E8%AE%BA%E6%96%87.html</link>
+        <guid isPermaLink="true">/%E5%BC%80%E5%9D%91-%E5%A4%A7%E7%8B%97%E7%B2%BE%E8%AF%BB-PBFT-%E8%AE%BA%E6%96%87.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>数据结构设计 | 撮合引擎开发指南</title>
+        
+          <description>数 据 结 构 走 起 来
+</description>
+        
+        <pubDate>Sun, 24 Nov 2019 08:01:35 +0800</pubDate>
+        <link>
+        /%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E8%AE%BE%E8%AE%A1-%E6%92%AE%E5%90%88%E5%BC%95%E6%93%8E%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97.html</link>
+        <guid isPermaLink="true">/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E8%AE%BE%E8%AE%A1-%E6%92%AE%E5%90%88%E5%BC%95%E6%93%8E%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>最小可行产品 | 撮合引擎开发指南</title>
+        
+          <description>本文确定撮合服务的「定位、技术选型与核心架构」
+</description>
+        
+        <pubDate>Wed, 20 Nov 2019 06:08:17 +0800</pubDate>
+        <link>
+        /%E6%9C%80%E5%B0%8F%E5%8F%AF%E8%A1%8C%E4%BA%A7%E5%93%81-%E6%92%AE%E5%90%88%E5%BC%95%E6%93%8E%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97.html</link>
+        <guid isPermaLink="true">/%E6%9C%80%E5%B0%8F%E5%8F%AF%E8%A1%8C%E4%BA%A7%E5%93%81-%E6%92%AE%E5%90%88%E5%BC%95%E6%93%8E%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>开篇 | 撮合引擎开发指南</title>
+        
+          <description>小钢给我们带来一套价值超5万的撮合引擎的设计与实现
+</description>
+        
+        <pubDate>Mon, 18 Nov 2019 20:53:02 +0800</pubDate>
+        <link>
+        /%E5%BC%80%E7%AF%87-%E6%92%AE%E5%90%88%E5%BC%95%E6%93%8E%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97.html</link>
+        <guid isPermaLink="true">/%E5%BC%80%E7%AF%87-%E6%92%AE%E5%90%88%E5%BC%95%E6%93%8E%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>上链与背后的流程 | 联盟链开发（一）</title>
+        
+          <description>App - 链码 - 链
+</description>
+        
+        <pubDate>Fri, 15 Nov 2019 01:53:38 +0800</pubDate>
+        <link>
+        /%E4%B8%8A%E9%93%BE%E4%B8%8E%E8%83%8C%E5%90%8E%E7%9A%84%E6%B5%81%E7%A8%8B-%E8%81%94%E7%9B%9F%E9%93%BE%E5%BC%80%E5%8F%91-%E4%B8%80.html</link>
+        <guid isPermaLink="true">/%E4%B8%8A%E9%93%BE%E4%B8%8E%E8%83%8C%E5%90%8E%E7%9A%84%E6%B5%81%E7%A8%8B-%E8%81%94%E7%9B%9F%E9%93%BE%E5%BC%80%E5%8F%91-%E4%B8%80.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>为什么 TCP 建立连接需要三次握手 | WTD</title>
+        
+          <description>为什么是三次？不是两次也不是四次？
+</description>
+        
+        <pubDate>Tue, 05 Nov 2019 16:55:38 +0800</pubDate>
+        <link>
+        /%E4%B8%BA%E4%BB%80%E4%B9%88-TCP-%E5%BB%BA%E7%AB%8B%E8%BF%9E%E6%8E%A5%E9%9C%80%E8%A6%81%E4%B8%89%E6%AC%A1%E6%8F%A1%E6%89%8B-WTD.html</link>
+        <guid isPermaLink="true">/%E4%B8%BA%E4%BB%80%E4%B9%88-TCP-%E5%BB%BA%E7%AB%8B%E8%BF%9E%E6%8E%A5%E9%9C%80%E8%A6%81%E4%B8%89%E6%AC%A1%E6%8F%A1%E6%89%8B-WTD.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>区块链技术六层架构</title>
+        
+          <description>建立区块链知识体系的基础架构，欢迎共同探讨
+</description>
+        
+        <pubDate>Tue, 29 Oct 2019 05:21:05 +0800</pubDate>
+        <link>
+        /%E5%8C%BA%E5%9D%97%E9%93%BE%E6%8A%80%E6%9C%AF%E5%85%AD%E5%B1%82%E6%9E%B6%E6%9E%84.html</link>
+        <guid isPermaLink="true">/%E5%8C%BA%E5%9D%97%E9%93%BE%E6%8A%80%E6%9C%AF%E5%85%AD%E5%B1%82%E6%9E%B6%E6%9E%84.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>【简单】人工加法 | 我要刷题</title>
+        
+          <description>今天涉及 Golang 和 Python 的比较
+知识点：字符串处理 | 分类讨论能力
+</description>
+        
+        <pubDate>Tue, 22 Oct 2019 23:50:41 +0800</pubDate>
+        <link>
+        /%E7%AE%80%E5%8D%95-%E4%BA%BA%E5%B7%A5%E5%8A%A0%E6%B3%95-%E6%88%91%E8%A6%81%E5%88%B7%E9%A2%98.html</link>
+        <guid isPermaLink="true">/%E7%AE%80%E5%8D%95-%E4%BA%BA%E5%B7%A5%E5%8A%A0%E6%B3%95-%E6%88%91%E8%A6%81%E5%88%B7%E9%A2%98.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>复盘笔记of比特币极速入门指南 | 大狗项目</title>
+        
+          <description>复盘是项目重要的一环
+</description>
+        
+        <pubDate>Mon, 21 Oct 2019 20:10:50 +0800</pubDate>
+        <link>
+        /%E5%A4%8D%E7%9B%98%E7%AC%94%E8%AE%B0of%E6%AF%94%E7%89%B9%E5%B8%81%E6%9E%81%E9%80%9F%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97-%E5%A4%A7%E7%8B%97%E9%A1%B9%E7%9B%AE.html</link>
+        <guid isPermaLink="true">/%E5%A4%8D%E7%9B%98%E7%AC%94%E8%AE%B0of%E6%AF%94%E7%89%B9%E5%B8%81%E6%9E%81%E9%80%9F%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97-%E5%A4%A7%E7%8B%97%E9%A1%B9%E7%9B%AE.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>【简单】整数反转 | 我要刷题</title>
+        
+          <description>知识点：堆栈操作 | 溢出 | 求余和整除
+</description>
+        
+        <pubDate>Mon, 21 Oct 2019 04:54:19 +0800</pubDate>
+        <link>
+        /%E7%AE%80%E5%8D%95-%E6%95%B4%E6%95%B0%E5%8F%8D%E8%BD%AC-%E6%88%91%E8%A6%81%E5%88%B7%E9%A2%98.html</link>
+        <guid isPermaLink="true">/%E7%AE%80%E5%8D%95-%E6%95%B4%E6%95%B0%E5%8F%8D%E8%BD%AC-%E6%88%91%E8%A6%81%E5%88%B7%E9%A2%98.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>区块链服务网络简介 | 联盟链开发</title>
+        
+          <description>区块链服务网络可以比传统联盟链环境节约至少90%的成本
+</description>
+        
+        <pubDate>Wed, 16 Oct 2019 19:05:42 +0800</pubDate>
+        <link>
+        /%E5%8C%BA%E5%9D%97%E9%93%BE%E6%9C%8D%E5%8A%A1%E7%BD%91%E7%BB%9C%E7%AE%80%E4%BB%8B-%E8%81%94%E7%9B%9F%E9%93%BE%E5%BC%80%E5%8F%91.html</link>
+        <guid isPermaLink="true">/%E5%8C%BA%E5%9D%97%E9%93%BE%E6%9C%8D%E5%8A%A1%E7%BD%91%E7%BB%9C%E7%AE%80%E4%BB%8B-%E8%81%94%E7%9B%9F%E9%93%BE%E5%BC%80%E5%8F%91.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>新坑 | 联盟链开发从入门到飞升</title>
+        
+          <description>联盟链开发系列
+</description>
+        
+        <pubDate>Wed, 16 Oct 2019 06:45:00 +0800</pubDate>
+        <link>
+        /%E6%96%B0%E5%9D%91-%E8%81%94%E7%9B%9F%E9%93%BE%E5%BC%80%E5%8F%91%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E9%A3%9E%E5%8D%87.html</link>
+        <guid isPermaLink="true">/%E6%96%B0%E5%9D%91-%E8%81%94%E7%9B%9F%E9%93%BE%E5%BC%80%E5%8F%91%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E9%A3%9E%E5%8D%87.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>编程学习超级地图</title>
+        
+          <description>学习地图
+</description>
+        
+        <pubDate>Mon, 14 Oct 2019 04:35:00 +0800</pubDate>
+        <link>
+        /%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0%E8%B6%85%E7%BA%A7%E5%9C%B0%E5%9B%BE.html</link>
+        <guid isPermaLink="true">/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0%E8%B6%85%E7%BA%A7%E5%9C%B0%E5%9B%BE.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>提前祝大家中秋快乐~~~~🌹🌹🌹</title>
+        
+          <description>提前祝大家中秋快乐~~~~🌹🌹🌹
+</description>
+        
+        <pubDate>Thu, 12 Sep 2019 01:31:42 +0800</pubDate>
+        <link>
+        /%E6%8F%90%E5%89%8D%E7%A5%9D%E5%A4%A7%E5%AE%B6%E4%B8%AD%E7%A7%8B%E5%BF%AB%E4%B9%90~~~~.html</link>
+        <guid isPermaLink="true">/%E6%8F%90%E5%89%8D%E7%A5%9D%E5%A4%A7%E5%AE%B6%E4%B8%AD%E7%A7%8B%E5%BF%AB%E4%B9%90~~~~.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>为什么去中心化身份很重要？</title>
+        
+          <description>新的身份、新的治理与新的规则。
+</description>
+        
+        <pubDate>Sun, 08 Sep 2019 22:19:54 +0800</pubDate>
+        <link>
+        /%E4%B8%BA%E4%BB%80%E4%B9%88%E5%8E%BB%E4%B8%AD%E5%BF%83%E5%8C%96%E8%BA%AB%E4%BB%BD%E5%BE%88%E9%87%8D%E8%A6%81.html</link>
+        <guid isPermaLink="true">/%E4%B8%BA%E4%BB%80%E4%B9%88%E5%8E%BB%E4%B8%AD%E5%BF%83%E5%8C%96%E8%BA%AB%E4%BB%BD%E5%BE%88%E9%87%8D%E8%A6%81.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>现实世界资产的代币化</title>
+        
+          <description>前言：就区块链本身的自然优势来说，它是承载价值并促进价值流通的。对于纯数字的资产，或者基于区块链上产生的原生
+</description>
+        
+        <pubDate>Sat, 24 Aug 2019 02:14:21 +0800</pubDate>
+        <link>
+        /%E7%8E%B0%E5%AE%9E%E4%B8%96%E7%95%8C%E8%B5%84%E4%BA%A7%E7%9A%84%E4%BB%A3%E5%B8%81%E5%8C%96.html</link>
+        <guid isPermaLink="true">/%E7%8E%B0%E5%AE%9E%E4%B8%96%E7%95%8C%E8%B5%84%E4%BA%A7%E7%9A%84%E4%BB%A3%E5%B8%81%E5%8C%96.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>二层网络是一种哲学 | 一周区块链</title>
+        
+          <description>区块链就是叠加在真实世界上的二层网络
+</description>
+        
+        <pubDate>Sat, 24 Aug 2019 02:14:21 +0800</pubDate>
+        <link>
+        /%E4%BA%8C%E5%B1%82%E7%BD%91%E7%BB%9C%E6%98%AF%E4%B8%80%E7%A7%8D%E5%93%B2%E5%AD%A6-%E4%B8%80%E5%91%A8%E5%8C%BA%E5%9D%97%E9%93%BE.html</link>
+        <guid isPermaLink="true">/%E4%BA%8C%E5%B1%82%E7%BD%91%E7%BB%9C%E6%98%AF%E4%B8%80%E7%A7%8D%E5%93%B2%E5%AD%A6-%E4%B8%80%E5%91%A8%E5%8C%BA%E5%9D%97%E9%93%BE.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>周四下午好☕️，来一点编程小技巧。</title>
+        
+          <description>周四下午好☕️，来一点编程小技巧。
+</description>
+        
+        <pubDate>Fri, 23 Aug 2019 02:17:59 +0800</pubDate>
+        <link>
+        /%E5%91%A8%E5%9B%9B%E4%B8%8B%E5%8D%88%E5%A5%BD-%E6%9D%A5%E4%B8%80%E7%82%B9%E7%BC%96%E7%A8%8B%E5%B0%8F%E6%8A%80%E5%B7%A7.html</link>
+        <guid isPermaLink="true">/%E5%91%A8%E5%9B%9B%E4%B8%8B%E5%8D%88%E5%A5%BD-%E6%9D%A5%E4%B8%80%E7%82%B9%E7%BC%96%E7%A8%8B%E5%B0%8F%E6%8A%80%E5%B7%A7.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>大学生应该学习什么编程语言？ | 知乎回答</title>
+        
+          <description>一名合格的程序员，需要左手霜之哀伤，右手火之高兴
+</description>
+        
+        <pubDate>Mon, 19 Aug 2019 22:29:35 +0800</pubDate>
+        <link>
+        /%E5%A4%A7%E5%AD%A6%E7%94%9F%E5%BA%94%E8%AF%A5%E5%AD%A6%E4%B9%A0%E4%BB%80%E4%B9%88%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80-%E7%9F%A5%E4%B9%8E%E5%9B%9E%E7%AD%94.html</link>
+        <guid isPermaLink="true">/%E5%A4%A7%E5%AD%A6%E7%94%9F%E5%BA%94%E8%AF%A5%E5%AD%A6%E4%B9%A0%E4%BB%80%E4%B9%88%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80-%E7%9F%A5%E4%B9%8E%E5%9B%9E%E7%AD%94.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>谁掌握着权力？是散户还是机构投资者？</title>
+        
+          <description>前言：本文认为要想让真正大规模的机构投资者进场，需要依赖零售投资者的兴趣来触发。虽然对冲基金、家族基金和捐赠
+</description>
+        
+        <pubDate>Sat, 17 Aug 2019 07:16:04 +0800</pubDate>
+        <link>
+        /%E8%B0%81%E6%8E%8C%E6%8F%A1%E7%9D%80%E6%9D%83%E5%8A%9B-%E6%98%AF%E6%95%A3%E6%88%B7%E8%BF%98%E6%98%AF%E6%9C%BA%E6%9E%84%E6%8A%95%E8%B5%84%E8%80%85.html</link>
+        <guid isPermaLink="true">/%E8%B0%81%E6%8E%8C%E6%8F%A1%E7%9D%80%E6%9D%83%E5%8A%9B-%E6%98%AF%E6%95%A3%E6%88%B7%E8%BF%98%E6%98%AF%E6%9C%BA%E6%9E%84%E6%8A%95%E8%B5%84%E8%80%85.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>等待新玩家 | 一周区块链</title>
+        
+          <description>精选三篇跟「机构入场」相关的文章
+</description>
+        
+        <pubDate>Sat, 17 Aug 2019 07:16:04 +0800</pubDate>
+        <link>
+        /%E7%AD%89%E5%BE%85%E6%96%B0%E7%8E%A9%E5%AE%B6-%E4%B8%80%E5%91%A8%E5%8C%BA%E5%9D%97%E9%93%BE.html</link>
+        <guid isPermaLink="true">/%E7%AD%89%E5%BE%85%E6%96%B0%E7%8E%A9%E5%AE%B6-%E4%B8%80%E5%91%A8%E5%8C%BA%E5%9D%97%E9%93%BE.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>投资的范式转移</title>
+        
+          <description>前言：本文是由桥水基金的创始人，也是《原则》的作者Ray Dalio所撰写的长文，他提到了不同的经济周期呈现
+</description>
+        
+        <pubDate>Sat, 17 Aug 2019 07:16:04 +0800</pubDate>
+        <link>
+        /%E6%8A%95%E8%B5%84%E7%9A%84%E8%8C%83%E5%BC%8F%E8%BD%AC%E7%A7%BB.html</link>
+        <guid isPermaLink="true">/%E6%8A%95%E8%B5%84%E7%9A%84%E8%8C%83%E5%BC%8F%E8%BD%AC%E7%A7%BB.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>一旦华尔街开始讲故事，关于加密货币的一切都会改变</title>
+        
+          <description>前言：从2019年以来，华尔街对加密货币领域日益重视。华尔街拥有巨量的资金和影响力。一旦它们真正踏入加密货币
+</description>
+        
+        <pubDate>Sat, 17 Aug 2019 07:16:04 +0800</pubDate>
+        <link>
+        /%E4%B8%80%E6%97%A6%E5%8D%8E%E5%B0%94%E8%A1%97%E5%BC%80%E5%A7%8B%E8%AE%B2%E6%95%85%E4%BA%8B-%E5%85%B3%E4%BA%8E%E5%8A%A0%E5%AF%86%E8%B4%A7%E5%B8%81%E7%9A%84%E4%B8%80%E5%88%87%E9%83%BD%E4%BC%9A%E6%94%B9%E5%8F%98.html</link>
+        <guid isPermaLink="true">/%E4%B8%80%E6%97%A6%E5%8D%8E%E5%B0%94%E8%A1%97%E5%BC%80%E5%A7%8B%E8%AE%B2%E6%95%85%E4%BA%8B-%E5%85%B3%E4%BA%8E%E5%8A%A0%E5%AF%86%E8%B4%A7%E5%B8%81%E7%9A%84%E4%B8%80%E5%88%87%E9%83%BD%E4%BC%9A%E6%94%B9%E5%8F%98.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>新开了个栏目，「大狗项目」。</title>
+        
+          <description>新开了个栏目，「大狗项目」。
+</description>
+        
+        <pubDate>Fri, 16 Aug 2019 00:35:19 +0800</pubDate>
+        <link>
+        /%E6%96%B0%E5%BC%80%E4%BA%86%E4%B8%AA%E6%A0%8F%E7%9B%AE-%E5%A4%A7%E7%8B%97%E9%A1%B9%E7%9B%AE.html</link>
+        <guid isPermaLink="true">/%E6%96%B0%E5%BC%80%E4%BA%86%E4%B8%AA%E6%A0%8F%E7%9B%AE-%E5%A4%A7%E7%8B%97%E9%A1%B9%E7%9B%AE.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>20190814，下午好🌹。</title>
+        
+          <description>20190814，下午好🌹。
+</description>
+        
+        <pubDate>Thu, 15 Aug 2019 01:43:46 +0800</pubDate>
+        <link>
+        /20190814-%E4%B8%8B%E5%8D%88%E5%A5%BD.html</link>
+        <guid isPermaLink="true">/20190814-%E4%B8%8B%E5%8D%88%E5%A5%BD.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>20190813，早安😄。</title>
+        
+          <description>20190813，早安😄。
+</description>
+        
+        <pubDate>Tue, 13 Aug 2019 16:52:43 +0800</pubDate>
+        <link>
+        /20190813-%E6%97%A9%E5%AE%89.html</link>
+        <guid isPermaLink="true">/20190813-%E6%97%A9%E5%AE%89.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>20190812，早上好。</title>
+        
+          <description>20190812，早上好。
+</description>
+        
+        <pubDate>Mon, 12 Aug 2019 18:08:51 +0800</pubDate>
+        <link>
+        /20190812-%E6%97%A9%E4%B8%8A%E5%A5%BD.html</link>
+        <guid isPermaLink="true">/20190812-%E6%97%A9%E4%B8%8A%E5%A5%BD.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>分享图片</title>
+        
+          <description></description>
+        
+        <pubDate>Sun, 11 Aug 2019 23:35:54 +0800</pubDate>
+        <link>
+        /%E5%88%86%E4%BA%AB%E5%9B%BE%E7%89%87.html</link>
+        <guid isPermaLink="true">/%E5%88%86%E4%BA%AB%E5%9B%BE%E7%89%87.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>3 时间戳服务器 (Timestamp Server) — 区块之链</title>
+        
+          <description>50行代码构建「区块链最简模型」
+</description>
+        
+        <pubDate>Wed, 19 Jun 2019 06:41:20 +0800</pubDate>
+        <link>
+        /3-%E6%97%B6%E9%97%B4%E6%88%B3%E6%9C%8D%E5%8A%A1%E5%99%A8-(Timestamp-Server)-%E5%8C%BA%E5%9D%97%E4%B9%8B%E9%93%BE.html</link>
+        <guid isPermaLink="true">/3-%E6%97%B6%E9%97%B4%E6%88%B3%E6%9C%8D%E5%8A%A1%E5%99%A8-(Timestamp-Server)-%E5%8C%BA%E5%9D%97%E4%B9%8B%E9%93%BE.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>菜是原罪</title>
+        
+          <description>认识菜 突破菜
+</description>
+        
+        <pubDate>Mon, 27 May 2019 17:25:38 +0800</pubDate>
+        <link>
+        /%E8%8F%9C%E6%98%AF%E5%8E%9F%E7%BD%AA.html</link>
+        <guid isPermaLink="true">/%E8%8F%9C%E6%98%AF%E5%8E%9F%E7%BD%AA.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>鸡鸣狗盗 | 大狗编程手记</title>
+        
+          <description>赛博小故事
+</description>
+        
+        <pubDate>Fri, 24 May 2019 21:11:52 +0800</pubDate>
+        <link>
+        /%E9%B8%A1%E9%B8%A3%E7%8B%97%E7%9B%97-%E5%A4%A7%E7%8B%97%E7%BC%96%E7%A8%8B%E6%89%8B%E8%AE%B0.html</link>
+        <guid isPermaLink="true">/%E9%B8%A1%E9%B8%A3%E7%8B%97%E7%9B%97-%E5%A4%A7%E7%8B%97%E7%BC%96%E7%A8%8B%E6%89%8B%E8%AE%B0.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>构建自己的硬件防火墙</title>
+        
+          <description>肉身脆弱
+</description>
+        
+        <pubDate>Fri, 24 May 2019 05:14:27 +0800</pubDate>
+        <link>
+        /%E6%9E%84%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E7%A1%AC%E4%BB%B6%E9%98%B2%E7%81%AB%E5%A2%99.html</link>
+        <guid isPermaLink="true">/%E6%9E%84%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E7%A1%AC%E4%BB%B6%E9%98%B2%E7%81%AB%E5%A2%99.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>C 和 Python，该从哪个入门编程？| 大狗编程手记</title>
+        
+          <description>对于入门语言选择的一点浅见
+</description>
+        
+        <pubDate>Sun, 19 May 2019 19:45:32 +0800</pubDate>
+        <link>
+        /C-%E5%92%8C-Python-%E8%AF%A5%E4%BB%8E%E5%93%AA%E4%B8%AA%E5%85%A5%E9%97%A8%E7%BC%96%E7%A8%8B-%E5%A4%A7%E7%8B%97%E7%BC%96%E7%A8%8B%E6%89%8B%E8%AE%B0.html</link>
+        <guid isPermaLink="true">/C-%E5%92%8C-Python-%E8%AF%A5%E4%BB%8E%E5%93%AA%E4%B8%AA%E5%85%A5%E9%97%A8%E7%BC%96%E7%A8%8B-%E5%A4%A7%E7%8B%97%E7%BC%96%E7%A8%8B%E6%89%8B%E8%AE%B0.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>5 个让 IEX 更加宜人的 Aha 技巧 | 大狗编程手记</title>
+        
+          <description>5 个让 IEX ( Elixir‘s Interactive Shell ) 更加宜人的 Aha 技巧
+</description>
+        
+        <pubDate>Sun, 19 May 2019 01:44:14 +0800</pubDate>
+        <link>
+        /5-%E4%B8%AA%E8%AE%A9-IEX-%E6%9B%B4%E5%8A%A0%E5%AE%9C%E4%BA%BA%E7%9A%84-Aha-%E6%8A%80%E5%B7%A7-%E5%A4%A7%E7%8B%97%E7%BC%96%E7%A8%8B%E6%89%8B%E8%AE%B0.html</link>
+        <guid isPermaLink="true">/5-%E4%B8%AA%E8%AE%A9-IEX-%E6%9B%B4%E5%8A%A0%E5%AE%9C%E4%BA%BA%E7%9A%84-Aha-%E6%8A%80%E5%B7%A7-%E5%A4%A7%E7%8B%97%E7%BC%96%E7%A8%8B%E6%89%8B%E8%AE%B0.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>序言 | 基于比特币的互动式区块链教程</title>
+        
+          <description>亚太地区最好的互动式区块链入门教程
+</description>
+        
+        <pubDate>Sun, 05 May 2019 03:49:28 +0800</pubDate>
+        <link>
+        /%E5%BA%8F%E8%A8%80-%E5%9F%BA%E4%BA%8E%E6%AF%94%E7%89%B9%E5%B8%81%E7%9A%84%E4%BA%92%E5%8A%A8%E5%BC%8F%E5%8C%BA%E5%9D%97%E9%93%BE%E6%95%99%E7%A8%8B.html</link>
+        <guid isPermaLink="true">/%E5%BA%8F%E8%A8%80-%E5%9F%BA%E4%BA%8E%E6%AF%94%E7%89%B9%E5%B8%81%E7%9A%84%E4%BA%92%E5%8A%A8%E5%BC%8F%E5%8C%BA%E5%9D%97%E9%93%BE%E6%95%99%E7%A8%8B.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>2.1 交易（Transactions）— 电子货币的定义</title>
+        
+          <description>清晰地搞懂电子货币
+</description>
+        
+        <pubDate>Sun, 05 May 2019 03:49:28 +0800</pubDate>
+        <link>
+        /2.1-%E4%BA%A4%E6%98%93-Transactions-%E7%94%B5%E5%AD%90%E8%B4%A7%E5%B8%81%E7%9A%84%E5%AE%9A%E4%B9%89.html</link>
+        <guid isPermaLink="true">/2.1-%E4%BA%A4%E6%98%93-Transactions-%E7%94%B5%E5%AD%90%E8%B4%A7%E5%B8%81%E7%9A%84%E5%AE%9A%E4%B9%89.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>多语言支持 | JupyterLab 花样玩法(一)</title>
+        
+          <description>炸裂！在同一个笔记里，运行多种语言！
+</description>
+        
+        <pubDate>Tue, 26 Mar 2019 06:28:07 +0800</pubDate>
+        <link>
+        /%E5%A4%9A%E8%AF%AD%E8%A8%80%E6%94%AF%E6%8C%81-JupyterLab-%E8%8A%B1%E6%A0%B7%E7%8E%A9%E6%B3%95(%E4%B8%80).html</link>
+        <guid isPermaLink="true">/%E5%A4%9A%E8%AF%AD%E8%A8%80%E6%94%AF%E6%8C%81-JupyterLab-%E8%8A%B1%E6%A0%B7%E7%8E%A9%E6%B3%95(%E4%B8%80).html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>玩转 JupyterLab — 安装篇 | 编程效率 UpUp（三）</title>
+        
+          <description>JupyterLab —— 让文档即写即运行。
+</description>
+        
+        <pubDate>Sun, 17 Feb 2019 20:26:35 +0800</pubDate>
+        <link>
+        /%E7%8E%A9%E8%BD%AC-JupyterLab-%E5%AE%89%E8%A3%85%E7%AF%87-%E7%BC%96%E7%A8%8B%E6%95%88%E7%8E%87-UpUp-%E4%B8%89.html</link>
+        <guid isPermaLink="true">/%E7%8E%A9%E8%BD%AC-JupyterLab-%E5%AE%89%E8%A3%85%E7%AF%87-%E7%BC%96%E7%A8%8B%E6%95%88%E7%8E%87-UpUp-%E4%B8%89.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>用代码生成 Ascii 流程图 | 编程效率 UpUp （二）</title>
+        
+          <description>用代码生成 Ascii 流程图
+</description>
+        
+        <pubDate>Mon, 07 Jan 2019 07:01:29 +0800</pubDate>
+        <link>
+        /%E7%94%A8%E4%BB%A3%E7%A0%81%E7%94%9F%E6%88%90-Ascii-%E6%B5%81%E7%A8%8B%E5%9B%BE-%E7%BC%96%E7%A8%8B%E6%95%88%E7%8E%87-UpUp-%E4%BA%8C.html</link>
+        <guid isPermaLink="true">/%E7%94%A8%E4%BB%A3%E7%A0%81%E7%94%9F%E6%88%90-Ascii-%E6%B5%81%E7%A8%8B%E5%9B%BE-%E7%BC%96%E7%A8%8B%E6%95%88%E7%8E%87-UpUp-%E4%BA%8C.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>软件工程师的思维工具箱</title>
+        
+          <description>开发实践中的「思维利器」
+</description>
+        
+        <pubDate>Sun, 25 Nov 2018 04:29:20 +0800</pubDate>
+        <link>
+        /%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%B8%88%E7%9A%84%E6%80%9D%E7%BB%B4%E5%B7%A5%E5%85%B7%E7%AE%B1.html</link>
+        <guid isPermaLink="true">/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%B8%88%E7%9A%84%E6%80%9D%E7%BB%B4%E5%B7%A5%E5%85%B7%E7%AE%B1.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>5 个必备的 iTerm 命令快捷键 | 编程效率 UpUp （一）</title>
+        
+          <description>5 个快捷键，丝滑 iTerm 的命令操作
+</description>
+        
+        <pubDate>Mon, 08 Oct 2018 08:10:05 +0800</pubDate>
+        <link>
+        /5-%E4%B8%AA%E5%BF%85%E5%A4%87%E7%9A%84-iTerm-%E5%91%BD%E4%BB%A4%E5%BF%AB%E6%8D%B7%E9%94%AE-%E7%BC%96%E7%A8%8B%E6%95%88%E7%8E%87-UpUp-%E4%B8%80.html</link>
+        <guid isPermaLink="true">/5-%E4%B8%AA%E5%BF%85%E5%A4%87%E7%9A%84-iTerm-%E5%91%BD%E4%BB%A4%E5%BF%AB%E6%8D%B7%E9%94%AE-%E7%BC%96%E7%A8%8B%E6%95%88%E7%8E%87-UpUp-%E4%B8%80.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Mixin Msg — 一款支持全币种钱包的「微信」</title>
+        
+          <description>目前为止最好的 Mixin Messager 介绍。
+</description>
+        
+        <pubDate>Fri, 22 Jun 2018 20:35:23 +0800</pubDate>
+        <link>
+        /Mixin-Msg-%E4%B8%80%E6%AC%BE%E6%94%AF%E6%8C%81%E5%85%A8%E5%B8%81%E7%A7%8D%E9%92%B1%E5%8C%85%E7%9A%84-%E5%BE%AE%E4%BF%A1.html</link>
+        <guid isPermaLink="true">/Mixin-Msg-%E4%B8%80%E6%AC%BE%E6%94%AF%E6%8C%81%E5%85%A8%E5%B8%81%E7%A7%8D%E9%92%B1%E5%8C%85%E7%9A%84-%E5%BE%AE%E4%BF%A1.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>搭建「最小可用版本」机器人 | 大狗教你Mixin开发（二）</title>
+        
+          <description>编写 Mixin 机器人，真的可以从 0 开始！
+</description>
+        
+        <pubDate>Tue, 19 Jun 2018 08:01:30 +0800</pubDate>
+        <link>
+        /%E6%90%AD%E5%BB%BA-%E6%9C%80%E5%B0%8F%E5%8F%AF%E7%94%A8%E7%89%88%E6%9C%AC-%E6%9C%BA%E5%99%A8%E4%BA%BA-%E5%A4%A7%E7%8B%97%E6%95%99%E4%BD%A0Mixin%E5%BC%80%E5%8F%91-%E4%BA%8C.html</link>
+        <guid isPermaLink="true">/%E6%90%AD%E5%BB%BA-%E6%9C%80%E5%B0%8F%E5%8F%AF%E7%94%A8%E7%89%88%E6%9C%AC-%E6%9C%BA%E5%99%A8%E4%BA%BA-%E5%A4%A7%E7%8B%97%E6%95%99%E4%BD%A0Mixin%E5%BC%80%E5%8F%91-%E4%BA%8C.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>基于「基础链协同三角」分析 Mixin（一）</title>
+        
+          <description>Mixin 是一条好链吗？
+</description>
+        
+        <pubDate>Sat, 16 Jun 2018 01:26:52 +0800</pubDate>
+        <link>
+        /%E5%9F%BA%E4%BA%8E-%E5%9F%BA%E7%A1%80%E9%93%BE%E5%8D%8F%E5%90%8C%E4%B8%89%E8%A7%92-%E5%88%86%E6%9E%90-Mixin-%E4%B8%80.html</link>
+        <guid isPermaLink="true">/%E5%9F%BA%E4%BA%8E-%E5%9F%BA%E7%A1%80%E9%93%BE%E5%8D%8F%E5%90%8C%E4%B8%89%E8%A7%92-%E5%88%86%E6%9E%90-Mixin-%E4%B8%80.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>如何判断一条基础链是否靠谱？</title>
+        
+          <description>用「基础链协同三角」，判断基础链价值。
+</description>
+        
+        <pubDate>Wed, 13 Jun 2018 18:01:41 +0800</pubDate>
+        <link>
+        /%E5%A6%82%E4%BD%95%E5%88%A4%E6%96%AD%E4%B8%80%E6%9D%A1%E5%9F%BA%E7%A1%80%E9%93%BE%E6%98%AF%E5%90%A6%E9%9D%A0%E8%B0%B1.html</link>
+        <guid isPermaLink="true">/%E5%A6%82%E4%BD%95%E5%88%A4%E6%96%AD%E4%B8%80%E6%9D%A1%E5%9F%BA%E7%A1%80%E9%93%BE%E6%98%AF%E5%90%A6%E9%9D%A0%E8%B0%B1.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>注册成为MiXin开发者 | 大狗教你MiXin开发（一）</title>
+        
+          <description>史上最神秘的区块链项目的首发教程。
+</description>
+        
+        <pubDate>Fri, 18 May 2018 02:42:02 +0800</pubDate>
+        <link>
+        /%E6%B3%A8%E5%86%8C%E6%88%90%E4%B8%BAMiXin%E5%BC%80%E5%8F%91%E8%80%85-%E5%A4%A7%E7%8B%97%E6%95%99%E4%BD%A0MiXin%E5%BC%80%E5%8F%91-%E4%B8%80.html</link>
+        <guid isPermaLink="true">/%E6%B3%A8%E5%86%8C%E6%88%90%E4%B8%BAMiXin%E5%BC%80%E5%8F%91%E8%80%85-%E5%A4%A7%E7%8B%97%E6%95%99%E4%BD%A0MiXin%E5%BC%80%E5%8F%91-%E4%B8%80.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>我们是如何成长的？</title>
+        
+          <description>需要地图、天平、指南针，加上一系列操作。
+</description>
+        
+        <pubDate>Sat, 05 May 2018 06:34:06 +0800</pubDate>
+        <link>
+        /%E6%88%91%E4%BB%AC%E6%98%AF%E5%A6%82%E4%BD%95%E6%88%90%E9%95%BF%E7%9A%84.html</link>
+        <guid isPermaLink="true">/%E6%88%91%E4%BB%AC%E6%98%AF%E5%A6%82%E4%BD%95%E6%88%90%E9%95%BF%E7%9A%84.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>什么是高算力攻击？ |  一问一答区块链</title>
+        
+          <description>一组漫画看懂高算力攻击
+</description>
+        
+        <pubDate>Tue, 24 Apr 2018 07:40:50 +0800</pubDate>
+        <link>
+        /%E4%BB%80%E4%B9%88%E6%98%AF%E9%AB%98%E7%AE%97%E5%8A%9B%E6%94%BB%E5%87%BB-%E4%B8%80%E9%97%AE%E4%B8%80%E7%AD%94%E5%8C%BA%E5%9D%97%E9%93%BE.html</link>
+        <guid isPermaLink="true">/%E4%BB%80%E4%B9%88%E6%98%AF%E9%AB%98%E7%AE%97%E5%8A%9B%E6%94%BB%E5%87%BB-%E4%B8%80%E9%97%AE%E4%B8%80%E7%AD%94%E5%8C%BA%E5%9D%97%E9%93%BE.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>比特币是什么？| 一问一答区块链</title>
+        
+          <description>既是货币，又是银行。
+</description>
+        
+        <pubDate>Thu, 29 Mar 2018 23:22:00 +0800</pubDate>
+        <link>
+        /%E6%AF%94%E7%89%B9%E5%B8%81%E6%98%AF%E4%BB%80%E4%B9%88-%E4%B8%80%E9%97%AE%E4%B8%80%E7%AD%94%E5%8C%BA%E5%9D%97%E9%93%BE.html</link>
+        <guid isPermaLink="true">/%E6%AF%94%E7%89%B9%E5%B8%81%E6%98%AF%E4%BB%80%E4%B9%88-%E4%B8%80%E9%97%AE%E4%B8%80%E7%AD%94%E5%8C%BA%E5%9D%97%E9%93%BE.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>【活动】理解区块链世界的「最少必要知识」</title>
+        
+          <description>了解「理解区块链世界的最少必要知识」，让自己快速启动…
+</description>
+        
+        <pubDate>Fri, 23 Mar 2018 16:23:45 +0800</pubDate>
+        <link>
+        /%E6%B4%BB%E5%8A%A8-%E7%90%86%E8%A7%A3%E5%8C%BA%E5%9D%97%E9%93%BE%E4%B8%96%E7%95%8C%E7%9A%84-%E6%9C%80%E5%B0%91%E5%BF%85%E8%A6%81%E7%9F%A5%E8%AF%86.html</link>
+        <guid isPermaLink="true">/%E6%B4%BB%E5%8A%A8-%E7%90%86%E8%A7%A3%E5%8C%BA%E5%9D%97%E9%93%BE%E4%B8%96%E7%95%8C%E7%9A%84-%E6%9C%80%E5%B0%91%E5%BF%85%E8%A6%81%E7%9F%A5%E8%AF%86.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>读完这篇教程，你就比世界上99%的人更会用搜索引擎了！</title>
+        
+          <description>要想学习，先学会搜索……
+</description>
+        
+        <pubDate>Sun, 11 Mar 2018 19:29:02 +0800</pubDate>
+        <link>
+        /%E8%AF%BB%E5%AE%8C%E8%BF%99%E7%AF%87%E6%95%99%E7%A8%8B-%E4%BD%A0%E5%B0%B1%E6%AF%94%E4%B8%96%E7%95%8C%E4%B8%8A99-%E7%9A%84%E4%BA%BA%E6%9B%B4%E4%BC%9A%E7%94%A8%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E4%BA%86.html</link>
+        <guid isPermaLink="true">/%E8%AF%BB%E5%AE%8C%E8%BF%99%E7%AF%87%E6%95%99%E7%A8%8B-%E4%BD%A0%E5%B0%B1%E6%AF%94%E4%B8%96%E7%95%8C%E4%B8%8A99-%E7%9A%84%E4%BA%BA%E6%9B%B4%E4%BC%9A%E7%94%A8%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E4%BA%86.html</guid>
       </item>
       
     
